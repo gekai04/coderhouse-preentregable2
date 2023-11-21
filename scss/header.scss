@@ -1,0 +1,12 @@
+header{ /* imagen de fondo y position del header */
+    position: sticky;
+    top: 0px;
+    background-image: url(../assets/banners.jpeg);
+    background-size: cover ;
+    z-index: 1;
+}
+.navbar-css{ /* edit del navbar para que el nav este a la derecha */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
